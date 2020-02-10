@@ -1,0 +1,168 @@
+#imgrot{
+	margin-top: -10px;
+	margin-left: -130px;
+}
+#back{
+	background-image: url(7.jpg);
+}
+#corps{
+	margin-right: 200px;
+	margin-left: 200px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	
+}
+#corps2{
+	opacity: 0.7;
+	
+	
+}
+#corps2 p{
+	color: white;
+	
+	
+}
+
+/* Header */
+
+	#header {
+		text-align: center;
+		font-size: 1em;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+		padding: 2em 0;
+		margin-top: 40px;
+		
+		margin: 0 auto;
+		
+	
+	}
+
+		#header h3{
+		color: white;
+		font-size: 24px;
+		margin-top: -30px;
+		
+			
+		}
+
+			#header .logo div {
+				position: relative;
+				display: inline-block;
+				margin-right: 1200;
+				margin-top: -100px;
+				
+				
+			}
+#header .logo div h3{
+				margin-left: ;
+				color: white;
+	
+			}
+
+#header .logo div img{				
+	width: 120px;
+	height: 120px;
+	margin-top: 60px;
+	margin-right: 135px;
+		border-bottom-left-radius: 50px;
+				border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
+				border-top-right-radius: 50px;
+	
+			}
+
+#nav {
+		position: fixed;
+		top: 35;
+		left: 0;
+		z-index: 1000;
+
+		width: 100%;
+		height: 3.25em;
+		line-height: 3.25em;
+		text-align: center;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		cursor: default;
+	}
+
+		#nav ul {
+			position: relative;
+			z-index: 1001;
+		}
+
+		#nav li {
+			display: inline-block;
+			margin: 0 0.5em 0 0.5em;
+			top: 0;
+			position: relative;
+			-moz-transition: top .15s ease-in-out;
+			-webkit-transition: top .15s ease-in-out;
+			-o-transition: top .15s ease-in-out;
+			-ms-transition: top .15s ease-in-out;
+			transition: top .15s ease-in-out;
+		}
+
+			#nav li > ul {
+				display: none;
+			}
+
+			#nav li a, #nav li span {
+				-moz-transition: background-color .075s ease-in-out, color .075s ease-in-out;
+				-webkit-transition: background-color .075s ease-in-out, color .075s ease-in-out;
+				-ms-transition: background-color .075s ease-in-out, color .075s ease-in-out;
+				transition: background-color .075s ease-in-out, color .075s ease-in-out;
+				position: relative;
+				display: block;
+				text-decoration: none;
+				color: white;
+				top: -6px;
+				padding: 6px 1.5em 0.25em 1.5em;
+				border-bottom-left-radius: 6px;
+				border-bottom-right-radius: 6px;
+				outline: 0;
+			}
+
+			#nav li:hover, #nav li.active {
+				top: 3px;
+			}
+
+			#nav li:hover a, #nav li:hover span {
+				background: #C1CAC5;
+				color: #fff;
+			}
+
+			#nav li.active a, #nav li.active span {
+				background: #C1CAC5;
+				color: #fff;
+			}
+
+			#nav li.current a {
+				background: #b1ddab;
+				color: #fff;
+			}
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial, sans-serif;
+	background-image:url(http://images2.fanpop.com/images/photos/7000000/Space-Art-Wallpaper-space-7076476-1920-1200.jpg);
+
+	
+}
+
+
+#menu{
+	width: 1024px;
+	margin: 0px auto;
+	color: white;
+	
+}
+h2{
+	margin: 0px;
+}
